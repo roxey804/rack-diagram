@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rack diagram</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <main class="container">
+
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 centered">Rack 1</h1>
+            </div>
+        </header>
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+
+            <div class="col">
+                <!-- Rack button -->
+
+                <div class="dropdown">
+                    <button id="rackbtn" class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose rack
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="rack_1_dropdown dropdown-item" href="#">Rack 1</a>
+                        <a class="rack_2_dropdown dropdown-item" href="#">Rack 2</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="ORC dropdown-item" href="#">ORC</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div> <!-- close row div  -->
+
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+            <div class="col">
+                <div class="btn-group-vertical">
+                    <button id="edit" type="button" class="btn btn-warning ">Edit rack</button>
+
+                </div>
+
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="ORC dropdown-item" href="#">ORC</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+
+            <div class="col">
+
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="ORC dropdown-item" href="#">ORC</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div> <!-- close row div  -->
+
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+            <div class="col">
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="ORC dropdown-item" href="#">ORC</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div> <!-- close row div  -->
+
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+            <div class="col">
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="ORC dropdown-item" href="#">ORC</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div> <!-- close row div  -->
+
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+            <div class="col">
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="ORC dropdown-item" href="#">ORC</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div> <!-- close row div  -->
+        <div class="row">
+            <!--------------------------------- Row ------------------------>
+
+            <div class="col">
+            </div>
+
+            <div class="col rack_1">
+                <div class="btn-group" role="group">
+
+                    <button id="btnGroupDrop" type="button" class="btn btn-lg btn-secondary dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose device
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="CR dropdown-item" href="#">CR</a>
+                        <a class="NM dropdown-item" href="#">NM</a>
+                        <a class="TS dropdown-item" href="#">TS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rack_diagram">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><img src="#" alt="" class="rack_image"></button>
+                </div>
+            </div>
+        </div> <!-- close row div  -->
+
+
+        <br>
+        <!-- End rack units  -->
+
+        <section class="row">
+
+            <div class="col">
+                <button type="button" id="staging" onclick="move()" class="btn btn-info">Activate staging</button>
+
+                <div id="progress_bar">
+                    <br>
+                    <div id="myBar">Progress...</div>
+                </div>
+            </div>
+
+            <div class="col final">
+                <button id="save" type="button" class="btn btn-success btn-lg">Save and update</button>
+            </div>
+
+            <div class="col">
+            </div>
+        </section>
+
+
+    </main>
+    <!-- close container div  -->
+
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
